@@ -81,7 +81,15 @@ Este guia descreve como instalar, configurar, fazer backup e restaurar distribui
    - `<NomeDistribuição>`: Nome desejado para a restauração.
    - `<CaminhoDestino>`: Local onde a distribuição será armazenada.
    - `<CaminhoBackup>`: Caminho do arquivo de backup.
+     
+3 - Após fazer a Restauração (Passos dentro do WSL):
+Pode acontecer de vir com o usuário default da distro (root), para alterar para seu usuario siga abaixo:
+# Dentro da distro WSL execute:
+sudo editor /etc/wsl.conf
 
+# Adicione o seguinte conteúdo dentro desse '/etc/wsl.conf' (username => seu-usuario):
+[user]
+default=username
 ---
 
 ## **Localização da Instalação do WSL**
