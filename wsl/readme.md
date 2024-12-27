@@ -92,13 +92,13 @@ Adicione o seguinte conteúdo dentro desse '/etc/wsl.conf' (username => seu-usua
 ```powershell
 [user]
 default=username
----
+```
 
 ## **Localização da Instalação do WSL**
 
 As distribuições instaladas pelo WSL geralmente estão localizadas em:
 
-```
+```powershell
 C:\Users\<seu-usuário>\AppData\Local\Packages
 ```
 
