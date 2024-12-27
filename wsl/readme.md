@@ -84,10 +84,12 @@ Este guia descreve como instalar, configurar, fazer backup e restaurar distribui
      
 3 - Após fazer a Restauração (Passos dentro do WSL):
 Pode acontecer de vir com o usuário default da distro (root), para alterar para seu usuario siga abaixo:
-# Dentro da distro WSL execute:
+Dentro da distro WSL execute:
+ ```powershell
 sudo editor /etc/wsl.conf
-
-# Adicione o seguinte conteúdo dentro desse '/etc/wsl.conf' (username => seu-usuario):
+```
+Adicione o seguinte conteúdo dentro desse '/etc/wsl.conf' (username => seu-usuario):
+```powershell
 [user]
 default=username
 ---
