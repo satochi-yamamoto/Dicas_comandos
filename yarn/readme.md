@@ -2,6 +2,7 @@
 
 Este documento descreve os comandos mais comuns do Yarn, um gerenciador de pacotes para JavaScript que facilita o gerenciamento de dependências e automação de tarefas em projetos.
 
+
 ---
 
 ## Sumário
